@@ -11,6 +11,7 @@ class ReminderApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Reminder App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
